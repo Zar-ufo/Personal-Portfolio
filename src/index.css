@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Vertical scrolling animation */
+@keyframes scroll-vertical {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  /* Apply animation only on hover */
+  .group:hover iframe {
+    animation: scroll-vertical 10s linear infinite;
+  }
+  
+  /* Reset scrolling for touch devices */
+  @media (hover: none) {
+    iframe {
+      animation: none;
+      pointer-events: auto; /* Enable interaction */
+    }
+  }
+  
