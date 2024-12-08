@@ -15,7 +15,7 @@ function Navbar() {
       }
 
       // Update active section based on scroll position
-      const sections = ["projects", "about-me", "contact"];
+      const sections = ["projects", "about-me", "contact-me"];
       let currentSection = "";
 
       sections.forEach((section) => {
@@ -83,7 +83,7 @@ function Navbar() {
             <a
               href="#contact"
               className={`${
-                activeSection === "contact" ? "text-blue-500" : ""
+                activeSection === "contact-me" ? "text-blue-500" : ""
               } hover:text-blue-400 transition-all duration-300 ease-in-out`}
             >
               Contact Me

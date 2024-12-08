@@ -1,22 +1,12 @@
 export const projects = [
-  {
-    title: "Advanced Python Web Scraper",
-    description: "Scrapes multiple websites and saves structured data into a database.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKXLZw9QofSgEt9msJFM_-MPyBlU-UURQKSA&s", // Scraper-like code image
-    technologies: ["Python", "BeautifulSoup", "SQL"],
-  },
+  
   {
     title: "React Portfolio Website",
     description: "Built a responsive and modern portfolio website using React and Tailwind CSS.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRimdTX-W16rJvaN5ixyTJNfGJsq0OJrQKtXg&s", // Creative UI/UX-related workspace
     technologies: ["React", "Tailwind CSS"],
   },
-  {
-    title: "Unity 3D Game",
-    description: "Developed a 3D adventure game with interactive gameplay using Unity.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9hzpLxFX5V2lRyvvOKeN82Gh2fPjnO8KWGA&s", // Gaming development
-    technologies: ["Unity", "C#", "3D Modeling"],
-  },
+  
   {
     title: "Android Task Tracker App",
     description: "An Android app to track and manage daily tasks with push notifications.",
@@ -29,42 +19,22 @@ export const projects = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTky3nCFJpDX2iNOS51mTEYR0qT-zCyyvPHPQ&s", // Chatbot visualization
     technologies: ["Python", "NLP", "TensorFlow"],
   },
-  {
-    title: "E-Commerce Platform",
-    description: "An online shopping platform with a secure payment gateway and admin panel.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrxqqi7mokHHYFwMiSrLK4NCDrtwmJSYKKPA&s", // Shopping cart icon
-    technologies: ["React", "Node.js", "MongoDB"],
-  },
+  
   {
     title: "Machine Learning Model Deployment",
     description: "Created and deployed a machine learning model for real-time predictions.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7jGLbDiOJKyKskY_nye4Zu_zscuN-eigU3Q&s", // Machine learning visuals
     technologies: ["Python", "Flask", "Scikit-Learn"],
   },
-  {
-    title: "Unity 2D Puzzle Game",
-    description: "A mobile-friendly puzzle game with levels and engaging gameplay.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOK-YuHEICx_HJOqeocevNY0MjmilCpxiNXg&s", // 2D puzzle game vibes
-    technologies: ["Unity", "C#", "Sprite Animation"],
-  },
+ 
   {
     title: "Weather App",
     description: "A real-time weather app that fetches data from OpenWeatherMap API.",
     image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&q=80", // Weather app or forecast representation
     technologies: ["React", "Tailwind CSS", "REST API"],
   },
-  {
-    title: "IoT Smart Home System",
-    description: "Built an IoT-based smart home automation system with remote access.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6TTYphCAbjcMo4cEapIo5Erd3aM9OIhs0w&s", // Smart home tech image
-    technologies: ["Python", "Raspberry Pi", "MQTT"],
-  },
-  {
-    title: "Personal Finance Manager",
-    description: "An Android app for managing personal expenses with budget tracking.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-l_Ix-D8slvK8ln0SYGZBfG1SbpGNWowrKqMzGEKxjwTvp2SaaEIC3Lu6X2cV_Ao73Lk&usqp=CAU", // Budget tracker or finance-related visuals
-    technologies: ["Android Studio", "Kotlin"],
-  },
+  
+  
   {
     title: "Stock Price Prediction Model",
     description: "Created an ML model to predict stock prices based on historical data.",

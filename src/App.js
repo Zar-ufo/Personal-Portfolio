@@ -22,7 +22,7 @@ function App() {
         </section>
         
         {/* Contact Me Section */}
-        <section id="projects" className="min-h-screen flex flex-col justify-center items-center bg-white p-8">
+        <section id="contact" className="min-h-screen flex flex-col justify-center items-center bg-white p-8">
           <ContactMe />
         </section>
       </div>
